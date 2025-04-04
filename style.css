@@ -62,7 +62,7 @@ body {
 .accordion-content {
     font-size: 22px;
 }
-.accordion-content {
+.active .accordion-content {
     padding: 15px;
     background-color: white;
     display: none; /* Initially hide content */

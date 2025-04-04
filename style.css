@@ -41,7 +41,7 @@ body {
 }
 
 .arrow {
-    transition: transform 1s ease;
+    transition: transform 0.3s ease;
 }
 
 .active .arrow {
@@ -61,4 +61,17 @@ body {
 
 .accordion-content {
     font-size: 22px;
+}
+.accordion-content {
+    padding: 15px;
+    background-color: white;
+    display: none; /* Initially hide content */
+    transition: max-height 5s ease-in-out; /* Add transition here */
+    max-height: 0; /* Initially set max-height to 0 */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.active .accordion-content {
+    display: block; /* Show content when active */
+    max-height: 1000px; /* Set a large max-height to reveal content */
 }

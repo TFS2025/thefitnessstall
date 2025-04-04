@@ -51,3 +51,7 @@ body {
 .active .accordion-content {
     display: block; /* Show content when active */
 }
+.accordion-header,
+.accordion-content {
+    color: #262629;
+}
